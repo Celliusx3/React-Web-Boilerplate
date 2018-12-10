@@ -1,0 +1,18 @@
+{
+  "color-text-base": "#212121",
+  "color-text-secondary": "#494949",
+
+  "brand-primary": "#ec458b",
+  "brand-primary-tap": "#df307a",
+  "brand-success": "#23c15e",
+  "brand-warning": "#fbaf3f",
+  "brand-error": "#f86060",
+  "brand-important": "#ff5b05",
+  "brand-wait": "#27a9e1",
+
+  "fill-base": "#ffffff",
+  "fill-body": "#f1f1f1",
+  "fill-disabled": "#e6e6e6",
+
+  "border-color-base": "#e6e6e6"
+}

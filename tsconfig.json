@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react",
+    "lib": ["dom", "es6"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "es6",
+    "paths": {
+      "types/*": ["types/*"],
+      "client/*": ["src/client/*"],
+      "server/*": ["src/server/*"],
+      "client/core/*": ["src/client/core/*"],
+      "client/platform/*": ["src/client/platform/*"],
+      "client/asset/*": ["src/client/presentation/assets/*"],
+      "client/component/*": ["src/client/presentation/components/*"],
+      "client/screen/*": ["src/client/presentation/screens/*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
